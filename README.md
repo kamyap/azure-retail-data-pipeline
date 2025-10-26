@@ -107,7 +107,7 @@ Figure 2: End-to-end pipeline in ADF
      - Users can track **pipeline runs, activity status, start/end times**, and troubleshoot failures.
     
   4. **Documentation of Logs & Queries**
-     - KQL queries saved in `/Log_Analytics/KQL_Queries.md`.
+     - KQL queries saved in `/Log_Analytics/KQL_Queries.txt`.
      - Pipeline run screenshot saved in `/Log_Analytics` to showcase result of the KQLquery.
   
   **Potential Future Enhancements:**
