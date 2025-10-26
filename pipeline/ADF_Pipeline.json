@@ -128,7 +128,10 @@
                 "inputs": [
                     {
                         "referenceName": "Gold",
-                        "type": "DatasetReference"
+                        "type": "DatasetReference",
+                        "parameters": {
+                            "folder_name": "retail_sales_summary_delta"
+                        }
                     }
                 ],
                 "outputs": [
@@ -139,8 +142,14 @@
                 ]
             }
         ],
+        "parameters": {
+            "goldFolder": {
+                "type": "string",
+                "defaultValue": "gold/"
+            }
+        },
         "annotations": [],
-        "lastPublishTime": "2025-10-03T11:20:19Z"
+        "lastPublishTime": "2025-10-12T20:26:31Z"
     },
     "type": "Microsoft.DataFactory/factories/pipelines"
 }
