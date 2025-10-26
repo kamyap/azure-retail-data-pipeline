@@ -1,0 +1,5 @@
+ADFActivityRun
+| where PipelineName == "pipeline1"  
+| where Status == "Succeeded"        
+| project PipelineName,ActivityName, Status, Start, End
+| order by Start desc
